@@ -1,0 +1,200 @@
+/* Footer */
+footer{
+        background-color: black;
+        height: 60px;
+    }
+/* etiquetas */
+    a{
+        color:indigo ;
+        font-size: 6;
+        text-align: center;
+     }
+    
+     h2{
+        color: blue;
+     }
+     p{
+        color:black
+     }
+/* estilos de items */
+    .item{
+        border:2px solid black;
+        margin: 10px;
+        padding:10px;
+        color: white;
+        background-color: black;
+        align-items: center;
+    }
+    .tituloP1{
+        border:2px solid black;
+        margin: 10px;
+        padding:10px;
+        color: blue;
+        border: 1px solid;
+        flex-direction: ;
+        text-align: center;
+    }
+    .contenedorPadre{
+        background-color: black;
+        border: 1px solid;
+        display: flex;
+        flex-direction: ;
+        align-items: center;
+    }
+    .contenedorPadre2{
+        border: 2px ;
+        background-image: radial-gradient(circle at 50% 30%, #ebffff 0, #b5def2 50%, #7fb9d7 100%);
+        display: flex;
+        flex-direction: ;
+        align-items: center;
+    }
+    .contenedorCarroCompras{
+        border: 2px ;
+        background-image: radial-gradient(circle at 50% 30%, #ebffff 0, #b5def2 50%, #7fb9d7 100%);
+        display: flex;
+        align-items: center;
+        color: black;
+        text-align: center;
+    }
+    .contenedorPadre3{
+        background-color: black;
+        border: 2px ;
+        color:beige;
+        display: flex;
+        flex-direction:initial ;
+        align-items: center;
+        height: 490px;
+    }
+    .contenedorPadre4{
+        border: 2px ;
+        color:beige;
+        display: flex;
+        flex-direction:initial ;
+        align-items: center;
+        height: 490px;
+    }
+
+    .servicios{
+        border: 2px solid white;
+        padding: 4px;
+    }
+    /* Imagen principal de fondo */
+        .container02{
+            color:rgb(18, 250, 250);
+            background-image: url("imagenes/imagenFondoLetras.jpg");
+            background-size: cover;
+            padding: 4px;
+            height: 180px;
+            opacity: 0.9;
+        }
+        .h1Zindex{
+            background-color: transparent;
+            position:static ;
+            top: 20px;
+            z-index:2; /* se pasa detras  */
+            text-align: center;
+        }
+
+        /* Estilo del container */
+        .grid_Container{
+            border: 2px solid blue;
+            height: 470px;
+            width: 500px;
+            background-image:url("imagenes/imagen1.png");
+            opacity: 0.8;
+
+            /* proídades para grid */
+            display:grid;
+            grid-template-areas: 
+                    "item1 item2 item3 "
+                    " item4 item4 item5 "
+                    " item6 item7 item8 "
+                    " item6 item7 item8 ";
+            grid-template-columns: 3fr 3fr;
+            grid-template-rows: 3fr 3fr;
+            gap: 5px;
+            padding: 5px;
+        }
+        /* Estilo de items dentro del container */
+        .grid_Container>div{
+            display: flex;
+            height: 50px;
+            padding:50px;
+            width: 50px;
+            align-items: center;
+            justify-content:right;   
+            border: 1px solid transparent;
+        }
+        /* items */
+        .item1{
+            grid-area: item1;
+            background-image:url("imagenes/imagen2.jpg");
+            background-size: cover;
+            padding: 4px;
+            height: 4px;
+            opacity: 0.9;
+            
+        }
+        .item2{
+            grid-area: item2;
+            background-image:url("imagenes/imagen3.jpg");
+            background-size: cover;
+            padding: 4px;
+            height: 4px;
+        }
+
+        .item3{
+            grid-area: item3;
+            background-image:url("imagenes/imagen4.jpg");
+            background-size: cover;
+            padding: 4px;
+            height: 4px;
+            opacity: 0.9;
+        }
+
+        .item4{
+            grid-area: item4;
+            background-image:url("imagenes/imagen5.jpg");
+            background-size: cover;
+            padding: 4px;
+            height: 4px;
+            opacity: 0.9;
+        }
+
+        .item5{
+            grid-area: item5;
+            background-image:url("imagenes/imgen6.jpg");
+            background-size: cover;
+            padding: 4px;
+            height: 4px;
+            opacity: 0.9;
+        }
+        .item6{
+            grid-area: item6;
+            background-image:url("imagenes/imagen7.jpg");
+            background-size: cover;
+            padding: 4px;
+            height: 4px;
+            opacity: 0.9;
+        } 
+        .item7{
+            grid-area: item7;
+            background-image:url("imagenes/imagen8.jpg");
+            background-size: cover;
+            padding: 4px;
+            height: 4px;
+            opacity: 0.9;
+        }      
+        .item8{
+            grid-area: item8;
+            background-image:url("imagenes/imagen9.jpg");
+            background-size: cover;
+            padding: 4px;
+            height: 4px;
+            opacity: 0.9;
+        }
+
+    /* Id */
+    #video{
+        border: 1px solid transparent;
+    }

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Enlace a los estilos 
+    <link rel="stylesheet" href="./estilos.css">-->
+    <title>Servicios Profesionales</title>
+</head>
+
+<body>
+    <!-- ENCABEZADO  -->
+    <header class="encabezado">
+        <!-- Flex-direction:column -->
+        <div class="contenedorPadre">
+            <aside>
+                <nav class="barraNavegacion">
+
+                    <!-- estilo para los items -->
+                    <style>
+                        .item {
+                            border: 2px solid black;
+                            margin: 10px;
+                            padding: 10px;
+                            color: white;
+                            background-color: black;
+                            align-items: center;
+                        }
+
+                        .tituloP1 {
+                            border: 2px solid black;
+                            margin: 10px;
+                            padding: 10px;
+                            color: blue;
+                            border: 1px solid;
+                            flex-direction: ;
+                            text-align: center;
+                        }
+                    </style>
+                    <!-- BARRA DE NAVEGACIÓN CON CATEGORIAS DE MENU-->
+        </div>
+        <div class="contenedorPadre">
+            <!---------LOGO----->
+            <div>
+                <img src="./imagenes/logo.png" width="100" height="100">
+            </div>
+
+            <div class="item"> <a href="./index.html">Inicio</a></div>
+            <div class="item"><a href="./productos.html">Productos</a></div>
+            <div class="item"><a href="./ayuda.html">Ayuda</a></div>
+            <div class="item"><a href="./contacto.html">Contacto</a></div>
+        </div>
+        <style>
+            .contenedorPadre {
+                background-color: black;
+                border: 1px solid;
+                display: flex;
+                flex-direction: ;
+                align-items: center;
+            }
+        </style>
+        </nav>
+        </aside>
+    </header>
+    <!-- IMAGEN PRINCIPAL DE BACKGRAUND CON FRASE DE ESLOGAN(Z-INDEX) -->
+    <style>
+        .container02 {
+            color: rgb(18, 250, 250);
+            background-image: url("imagenes/imagenFondoLetras.jpg");
+            background-size: cover;
+            padding: 4px;
+            height: 180px;
+            opacity: 0.9;
+        }
+
+        .h1Zindex {
+            background-color: transparent;
+            position: static;
+            top: 20px;
+            z-index: 2;
+            /* se pasa detras  */
+            text-align: center;
+        }
+    </style>
+    <div class="container02">
+        <div class="h1Zindex">
+            <h1>SOLUCIONES TECNOLÓGICAS</h1>
+            <h2>Servicios profesionales de desarrollo y venta de productos</h2>
+        </div>
+    </div>
+
+
+    <H1>Contactanos</H1>
+    <!---Imagen externa -->
+
+    <img src="https://images.app.goo.gl/qfwfzCrb4s5zLkLU8">
+    <!---div lista y aside  -->
+
+    <div id="equipo">
+        <h2>Equipo </h2>
+        <aside>
+            <ul>
+                <li>Maria Perez
+                    <aside>
+                        <ul>
+                            <li>Desarrolladora</li>
+                            <li>Tel: 222-445-66-88</li>
+                            <li>MariaPerz14@gmail.com</li>
+                        </ul>
+                    </aside>
+                </li>
+
+                <li>Francisco Tapia <aside>
+                        <ul>
+                            <li>Desarrollador</li>
+                            <li>Tel: 222-496-66-58</li>
+                            <li>Pac4Tapia@gmail.com</li>
+                        </ul>
+                    </aside>
+                </li>
+                <li>Pedro Ramirez<aside>
+                        <ul>
+                            <li>Consultor</li>
+                            <li>Tel: 252-895-46-88</li>
+                            <li>RamMRZPedr1455@gmail.com</li>
+                        </ul>
+                    </aside>
+                </li>
+            </ul>
+        </aside>
+    </div>
+
+    <!--- REQUISITO 10 :MAPA   -->
+    <style>
+        .ubicacion {
+            text-align: center;
+            font-size: medium;
+            color: rgb(139, 205, 70);
+
+            border: 2px solid rgb(140, 94, 231);
+        }
+    </style>
+    <center>
+        <div id="ubicacion">
+            <h2>Ubicación </h2>
+            <p>Nos encontramos en la calle independencia, no 308, San Martin Tex.,Pue</p>
+            <!--Mapa-->
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30126.872470502596!2d-98.45801224880157!3d19.28849440247479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfd469e753a47d%3A0xc656f7a71875a019!2sSan%20Mart%C3%ADn%20Texmelucan%20de%20Labastida%2C%20Pue.%2C%20M%C3%A9xico!5e0!3m2!1ses-419!2sse!4v1673247824109!5m2!1ses-419!2sse"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </center>
+
+
+
+
+</body>
+
+</html>

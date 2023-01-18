@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Enlace a los estilos -->
+    <link rel="stylesheet" href="./estilos.css">
+    <title>Servicios Profesionales</title>
+</head>
+<script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+
+<body>
+    <!-- REQUISITO 1: ENCABEZADO CON LOGO  -->
+    <header class="encabezado">
+        <!-- Flex-direction:column -->
+        <div class="contenedorPadre">
+            <aside>
+                <nav class="barraNavegacion">
+
+                    <!-- REQUISITO 4:BARRA DE NAVEGACIÓN CON CATEGORIAS DE MENU-->
+        </div>
+        <div class="contenedorPadre">
+            <!-----------------------------------------LOGO----->
+            <div>
+                <img src="./imagenes/logo.png" width="100" height="100">
+            </div>
+
+            <div class="item"> <a href="./index.html">Inicio</a></div>
+            <div class="item"><a href="./productos.html">Productos</a></div>
+            <div class="item"><a href="./ayuda.html">Ayuda</a></div>
+            <div class="item"><a href="./contacto.html">Contacto</a></div>
+            <!---------------- REQUISITO 2: INPUT DE BÚSQUEDA -->
+            <button style="border-bottom: 10px;">
+                <iconify-icon icon="ic:outline-search" style="color: gray;"></iconify-icon>
+                <input class="input1" name="buscar" placeholder="Buscar">
+            </button>
+
+            <div>
+                <!-- REQUISITO 9: EFECTO GENERADO CON PSEUDO CLASE 1 -->
+                <style>
+                    .boton1 {
+                        color: yellow;
+                        font-size: 15px;
+                        background-color: black;
+                    }
+
+                    .boton1:hover {
+                        color: white;
+                        background-color: green;
+                        font-size: 20px;
+                    }
+                </style>
+                <!------REQUISITO 11: CONTENER IMAGENES E ICONOS  -->
+                <iconify-icon icon="material-symbols:shopping-bag-sharp" style="color: yellow;"></iconify-icon>
+                <!--------------REQUISITO 3: CARRITO DE COMPRAS------------>
+                <a href="./carritoCompras.html"><button class="boton1">Ordenar ahora</button></a>
+            </div>
+            <style>
+                .input1 {
+                    width: 200px;
+                    height: 100px;
+                    transition-duration: 2s;
+                    transition-delay: 1s;
+                    border-radius: 20px;
+                    height: 30px;
+                }
+
+                .input1:focus {
+                    width: 400px;
+                    font-size: 15px;
+                    background-color: rgb(236, 231, 231);
+                    color: gray;
+                    border-radius: 20px;
+                }
+            </style>
+
+
+
+        </div>
+        </nav>
+        </aside>
+    </header>
+
+
+    <!-- REQUISITO 5: IMAGEN PRINCIPAL DE BACKGRAUND CON FRASE DE ESLOGAN(Z-INDEX) -->
+
+    <div class="container02">
+        <div class="h1Zindex">
+            <h1>SOLUCIONES TECNOLÓGICAS</h1>
+            <h2>Servicios profesionales de desarrollo y venta de productos</h2>
+        </div>
+    </div>
+
+
+    <div class="contenedorPadre4">
+        <!--checkbox-->
+        <div class="contenedorPadre3">
+            <div class="formulario">
+                <h3 class="servicios">Servicios</h3>
+                <form action="">
+                    <div>Desarrollo de sistemas<input type="radio"></div>
+                    <div>Soluciones de instalacion <input type="radio"></div>
+                    <div>Desarrollo web <input type="radio"></div>
+                    <!---Lista Desordenada con aside -->
+                    <aside>
+                        <h3 class="servicios">Màs</h3>
+                        <ul class="listaDesordenada">
+                            <li>Productos</li>
+                            <li>Soluciones de software</li>
+                            <li>Aportaciones</li>
+                        </ul>
+                    </aside>
+                    <!--Formulario desplegable-->
+                    <div>
+                        <h3 class="servicios">Temas que te pueden interesar</h3>
+                        <form action="" class="encabezado">
+                            <select name="Temas" id="">
+                                <option value="MS">Manejo de sistemas</option>
+                                <option value="Sp"> Datos sobre Soporte</option>
+                                <option value="DM"> Datos sobre mantenimiento</option>
+
+                            </select>
+                            <!-------REQUISITO 9: ELEMENTO GENERADO CON PSEUDOCLASE 2 -->
+                            <button class="boton2">Enviar</button>
+
+                            <style>
+                                .boton2 {
+                                    background-color: rgb(122, 120, 120);
+                                }
+
+                                .boton2:active {
+                                    background-color: rgb(0, 156, 228);
+                                }
+                            </style>
+                        </form>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!---------REQUISITO 6: SECCION CON TEXTO 1 ------->
+        <section>
+            <div style="width:550px; height: 450px;">
+                <center>
+                    <H2>OFRECEMOS</H2>
+                    <P> Variedades de servicios profesionales para ti, soluciones de software de
+                        nuestros productos o productos externos, así como tambien te ofrecemos diversos
+                        productos que podrás agregar a tu carrito de compras, realizar pedidos, ver
+                        nuevos productos y mucho más
+                    </P>
+                    <!------video ------->
+                    <iframe id="video" width="500" height="250" src="https://www.youtube.com/embed/0EO6Cmf5EXI"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+
+        </section>
+        </center>
+        <!------REQUISITO 6:SECCION CON TEXTO 2 ------->
+        <div style="width:550px; height: 450px;">
+            <center>
+                <img src="./imagenes/imagen4.jpg" width="500">
+
+                </section>
+
+                <H2>HERRAMIENTAS</H2>
+                <P> En el menú lateral se puede visualizar los servicios que pueden llegar
+                    a interesarte, asi como tambien MÁS temas que pueden llegar a interesarte.
+                </P>
+            </center>
+        </div>
+    </div>
+    </div>
+
+    <!-------- REQUISITO 7:GALERIA DE IMAGENES CON GRID -->
+    <div class="contenedorPadre2">
+        <div class="grid_Container">
+            <div class="item1"></div>
+            <div class="item2"></div>
+            <div class="item3"></div>
+            <div class="item4"></div>
+            <div class="item5"></div>
+            <div class="item6"></div>
+            <div class="item7"></div>
+            <div class="item8"></div>
+        </div>
+        <!---REQUISITO 6 :SECCION CON TEXTO 3  -->
+
+        <section style="text-align:left; color: lightseagreen;">
+            <h2>SOLUCIONES AL INSTANTE </h2>
+            <p>SOLUCIONES TECNOLÓGICAS AL ALCANCE DE TODOS.</p>
+        </section>
+    </div>
+    <!----Audio--->
+    <!--  <audio controls autoplay src="audio/y2mate.com - Brianzo  Tecnología audio.mp3"> -->
+
+    </audio>
+    </div>
+    <footer>
+        <!-----REQUISITO 11: CONTENER IMAGENES E ICONOS  -->
+        <div class="contenedorPadre">
+            <iconify-icon icon="bi:facebook" style="color: blue;"></iconify-icon>
+            <iconify-icon icon="uim:instagram-alt" style="color: blue;"></iconify-icon>
+            <iconify-icon icon="ant-design:twitter-square-filled" style="color: blue;"></iconify-icon>
+        </div>
+    </footer>
+</body>
+</script>
+
+</html>
